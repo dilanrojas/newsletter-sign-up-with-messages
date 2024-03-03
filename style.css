@@ -147,7 +147,7 @@ input:where([type="email"]):focus {
 
 .col2 img {
   content: url("/public/illustration-sign-up-desktop.svg");
-  max-height: 550px;
+  max-height: 590px;
 }
 
 @media(max-width: 850px) {
