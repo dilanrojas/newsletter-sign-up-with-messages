@@ -154,7 +154,8 @@ input:where([type="email"]):focus {
     flex-direction: column-reverse;
     position: absolute;
     border-radius: 0;
-    min-height: 100vmax;
+    inset: 0;
+    min-height: 100dvh;
     min-width: 100%;
     padding: 0;
     gap: 0em;
@@ -196,8 +197,9 @@ input:where([type="email"]):focus {
   .sign-up-success-wrapper {
     justify-content: center;
     position: absolute;
+    inset: 0;
     border-radius: 0;
-    min-height: 100vmax;
+    min-height: 100dvh;
     min-width: 100%;
     padding: 1.5em
   }
