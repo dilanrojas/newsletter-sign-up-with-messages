@@ -75,7 +75,7 @@ ol[role="list"] {
 
 .sign-up-wrapper {  
   background-color: var(--clr-neutral-100);
-  border-radius: 15px;
+  border-radius: 20px;
   display: flex;
   padding: 1.2em;
   gap: 2em;
@@ -186,7 +186,7 @@ input:where([type="email"]):focus {
 /* Success Message */
 .sign-up-success-wrapper {
   background-color: var(--clr-neutral-100);
-  border-radius: 15px;
+  border-radius: 20px;
   display: none;
   flex-direction: column;
   max-width: 30em;
@@ -215,7 +215,7 @@ input:where([type="email"]):focus {
 
 /* Utility classes */
 .container {
-  --max-width: var(--custom-width, 55em);
+  --max-width: var(--custom-width, 58em);
   --max-height: 100dvh;
   --padding: 1rem;
 
