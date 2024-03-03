@@ -75,7 +75,6 @@ ol[role="list"] {
 
 .sign-up-wrapper {  
   background-color: var(--clr-neutral-100);
-  border-radius: 20px;
   display: flex;
   padding: 1.2em;
   gap: 2em;
@@ -91,7 +90,7 @@ ol[role="list"] {
 }
 
 .features h1 {
-  font-size: var(--fs-900);
+  font-size: var(--fs-800);
   font-weight: var(--fw-bold);
 }
 
@@ -186,7 +185,6 @@ input:where([type="email"]):focus {
 /* Success Message */
 .sign-up-success-wrapper {
   background-color: var(--clr-neutral-100);
-  border-radius: 20px;
   display: none;
   flex-direction: column;
   max-width: 30em;
@@ -224,6 +222,7 @@ input:where([type="email"]):focus {
   margin-inline: auto;
   overflow: auto;
   scrollbar-width: none;
+  border-radius: 35px;
 }
 
 .flow > * + * {
