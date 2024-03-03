@@ -206,6 +206,10 @@ input:where([type="email"]):focus {
   .sign-up-success-wrapper button {
     margin-top: auto;
   }
+
+  .container {
+    border-radius: 0;
+  }
 }
 
 .sign-up-success-wrapper h1 {
