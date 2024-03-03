@@ -1,6 +1,6 @@
 ## Demo
 
-You can view a live demo of the Accordion FAQ website [here](https://faq-accordion-main.pages.dev/)
+Preview [here](https://newsletter-sign-up-with-messages.pages.dev/)
 
 ## Technologies Used
 
