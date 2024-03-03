@@ -42,7 +42,6 @@ subscribe.addEventListener("click", (event) => {
   if (emailInput.hasAttribute("valid")) {
     signUpForm.style.display = "none";
     signUpSuccess.style.display = "flex";
-    showAlert();
   } else {
     invalidEmail();
   }
