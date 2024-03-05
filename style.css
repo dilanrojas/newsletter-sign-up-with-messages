@@ -75,7 +75,8 @@ ol[role="list"] {
 
 .sign-up-wrapper {  
   background-color: var(--clr-neutral-100);
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 1.5em;
   border-radius: 35px;
   gap: 2em;
@@ -153,6 +154,7 @@ input:where([type="email"]):focus {
 
 @media(max-width: 850px) {
   .sign-up-wrapper {
+    display: flex;
     flex-direction: column-reverse;
     position: absolute;
     border-radius: 0;
