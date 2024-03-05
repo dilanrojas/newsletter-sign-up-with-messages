@@ -7,7 +7,7 @@ const dimiss = document.querySelector("#dimiss")
 const signUpForm = document.querySelector(".sign-up-wrapper")
 const signUpSuccess = document.querySelector(".sign-up-success-wrapper")
 
-function showAlert() {
+function getUserEmail() {
   var userInput = document.getElementById("email").value;
 
   userEmail.textContent = userInput
@@ -42,7 +42,7 @@ subscribe.addEventListener("click", (event) => {
   if (emailInput.hasAttribute("valid")) {
     signUpForm.style.display = "none";
     signUpSuccess.style.display = "flex";
-    showAlert();
+    getUserEmail();
   } else {
     invalidEmail();
   }
