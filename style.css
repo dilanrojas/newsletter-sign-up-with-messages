@@ -7,7 +7,7 @@
   --clr-grey: hsl(231, 7%, 60%);
   --clr-tomato: hsl(4, 100%, 67%);
   --clr-tomato-op: hsla(4, 100%, 67%, 0.144);
-
+  
   --clr-green: hsl(119, 100%, 67%);
   --clr-green-op: hsla(118, 100%, 67%, 0.144);
 
@@ -79,6 +79,7 @@ ol[role="list"] {
   padding: 1.5em;
   border-radius: 35px;
   gap: 2em;
+  z-index: 20;
 }
 
 .col1 {
@@ -193,6 +194,7 @@ input:where([type="email"]):focus {
   padding: 3em;
   border-radius: 35px;
   gap: 2em;
+  z-index: 20;
 }
 
 @media(max-width: 850px) {

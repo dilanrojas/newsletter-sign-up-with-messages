@@ -14,16 +14,17 @@ function showAlert() {
 }
 
 function invalidEmail() {
-  emailInput.toggleAttribute("invalid");
+  emailInput.removeAttribute("valid");
+  emailInput.setAttribute("invalid", "");
   emailError.textContent = "Valid email required";
   emailInput.style.border = "1px solid var(--clr-tomato)";
   emailInput.style.backgroundColor = "var(--clr-tomato-op)";
 }
 
 function validEmail() {
-  emailError.textContent = "";
   emailInput.removeAttribute("invalid");
-  emailInput.toggleAttribute("valid");
+  emailInput.setAttribute("valid", "");
+  emailError.textContent = "";
   emailInput.style.border = "1px solid var(--clr-green)";
   emailInput.style.backgroundColor = "var(--clr-green-op)";
 }
@@ -31,10 +32,9 @@ function validEmail() {
 emailInput.addEventListener("keyup", () => {
   if (!email.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
     invalidEmail();
-    return false;
+  } else {
+    validEmail();
   }
-  validEmail();
-  return true;
 })
 
 subscribe.addEventListener("click", (event) => {
