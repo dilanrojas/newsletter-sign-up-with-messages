@@ -71,6 +71,7 @@ ol[role="list"] {
   position: relative;
   height: 100dvh;
   width: 100%;
+  overflow: auto;
 }
 
 .sign-up-wrapper {  
@@ -159,10 +160,11 @@ input:where([type="email"]):focus {
     position: absolute;
     border-radius: 0;
     inset: 0;
-    min-height: 100dvh;
+    min-height: 100%;
     min-width: 100%;
     padding: 0;
     gap: 0em;
+    overflow: hidden;
   }
 
   .col1 {
@@ -228,7 +230,6 @@ input:where([type="email"]):focus {
   max-height: min(var(--max-height), 100% - (var(--padding) * 2));
   max-width: min(var(--max-width), 100% - (var(--padding) * 2));
   margin-inline: auto;
-  overflow: auto;
   scrollbar-width: none;
 }
 
